@@ -1,0 +1,63 @@
+
+.home{
+    height: calc(100vh - 120px);
+    background-image: url("./image/slider2.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo_1,
+.banner_prod,
+.banner_three,
+.banner_tow,
+.banner{
+    background-size: cover;
+    background-position: center;
+}
+
+
+.logo_1{
+    background-image: url("./image/logo_1.png");
+}
+
+.banner_prod{
+    background-image:url("./image/banner2.jpg")
+}
+
+.banner{
+    background-image: url("./image/home.jpg");
+}
+
+
+.banner_tow{
+    background-image: url("./image/slider3-1.jpg");
+}
+
+.banner_three{
+    background-image: url("./image/banner2.jpg");
+}
+
+.navh{
+    height: calc(100vh - 111px);
+    transition: 1s;
+}
+
+
+.sh{
+    right: 0;
+}
+
+.card{
+    transition: 1;
+
+}
+
+.card:hover{
+    opacity: 0.70;
+}
+
+
+.card:hover  .order{
+    top: 50%;
+}
