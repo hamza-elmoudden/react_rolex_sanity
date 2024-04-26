@@ -5,6 +5,7 @@ import { Navebar } from "../Component/Navebar"
 import { useSelector } from 'react-redux';
 import { Card } from '../Component/Card';
 import { useState } from 'react';
+import { motion } from 'framer-motion';
 
 
 
@@ -24,7 +25,7 @@ export const ProudacetList = () => {
                         <input value={searchText} onChange={(e) => setSearchText(e.target.value)} type="text" className='outline-none border border-spacing-2 text-3xl py-2 px-5 rounded-2xl' />
                         <div>
                         <FontAwesomeIcon className="text-3xl font-bold p-3 border border-spacing-3 rounded-2xl shadow-lg cursor-pointer hover:shadow-none" icon={faMagnifyingGlass} />
-                        </div>
+                    </div>
                     </div>
                     <div className="flex row justify-center items-center flex-wrap gap-5">
 

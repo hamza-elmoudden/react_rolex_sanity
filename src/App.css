@@ -1,6 +1,6 @@
 
 .home{
-    height: calc(100vh - 120px);
+    height: calc(100vh - 100px);
     background-image: url("./image/slider2.jpg");
     background-position: center;
     background-attachment: fixed;

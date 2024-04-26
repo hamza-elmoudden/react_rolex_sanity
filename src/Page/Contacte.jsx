@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Footer } from '../Component/Footer'
 import { Navebar } from '../Component/Navebar'
 import { client } from '../Sanity/Client'
+import { motion } from 'framer-motion';
 
 
 export const Contacte = () => {
@@ -49,9 +50,9 @@ export const Contacte = () => {
     <div className="overflow-hidden">
     <Navebar/>
     <section className=" h-96 md:h-52 flex justify-center items-center banner_tow p-8">
-        <div className="w-1/2 text-center flex flex-col gap-8">
-            <h1 className="text-4xl font-bold uppercase opacity-60 text-rose-200">Contatce</h1>
-            <p className="text-xl opacity-65 line-clamp-2 capitalize text-rose-100">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div className="w-1/2 text-center flex flex-col gap-8 py-5">
+            <motion.h1 animate={{left:0}} transition={{duration:0.9}} className="text-4xl font-bold uppercase opacity-60 text-rose-200 relative left-[100rem]">Contatce</motion.h1>
+            <motion.p animate={{left:0}} transition={{duration:1.3}} className="text-xl opacity-65 line-clamp-2 capitalize text-rose-100 relative left-[100rem]">Lorem ipsum dolor sit amet consectetur adipisicing elit.</motion.p>
         </div>
     </section>
     <section className="container mx-auto py-20">

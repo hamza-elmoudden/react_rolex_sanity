@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiceD20,faBars } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-
+import { motion } from 'framer-motion';
 
 export const Navebar = () => {
     
@@ -12,7 +12,7 @@ export const Navebar = () => {
 
   return (
     <>
-    <header className="py-10  bg-black text-white text-end px-20 md:relative fixed w-full z-30">
+    <motion.header animate={{top:0,}} transition={{ duration: 0.5 }} className="py-10  bg-black text-white text-end px-20 md:relative fixed w-full z-30 top-[-10rem]">
         <nav className=" hidden md:flex items-center justify-evenly container mx-auto  ">
                 <Link className="text-4xl font-bold cursor-pointer uppercase" to="/">
                     rolex
@@ -59,7 +59,7 @@ export const Navebar = () => {
                 </Link>
             </nav>
         </div>
-    </header>
+    </motion.header>
     </>
   )
 }
