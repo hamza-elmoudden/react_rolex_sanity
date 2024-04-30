@@ -35,7 +35,7 @@ export const Section = () => {
             </div>
         </section>
         <section className="flex" >
-            <div className='w-1/2 overflow-hidden' ref={ref}>
+            <div className='md:w-1/2 overflow-hidden w-full' ref={ref}>
             <motion.div 
             variants={{
                 start:{left:-1000},
@@ -58,7 +58,7 @@ export const Section = () => {
                     </div>
             </motion.div>
             </div>
-            <div className="w-1/2 overflow-hidden">
+            <div className="md:w-1/2 overflow-hidden hidden md:block">
                     <motion.div 
                     variants={{
                         start:{left:-1000},
@@ -68,7 +68,7 @@ export const Section = () => {
                     transition={{duration:0.5,delay:0.5}}
                     animate={mainControls}
                     className='h-100 relative'>
-                    <div className="h-1/2 w-full flex text-white ">
+                    <div className=" hidden md:h-1/2 w-full md:flex text-white ">
                         <div className="banner_tow w-1/2 h-full flex items-center justify-center text-center">
                             <div className="space-y-5">
                                     <h1 className="opacity-80 text-3xl  uppercase font-bold"> DITRACK </h1>
@@ -98,7 +98,7 @@ export const Section = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="banner_three h-1/2 text-white flex items-end justify-end py-10 px-8">
+                    <div className="banner_three h-full md:h-1/2 text-white md:flex items-end justify-end py-10 px-8">
                             <div className="space-y-5">
                                 <h1 className="opacity-80 text-3xl  uppercase font-blod"> GIZMO </h1>
                                 <p className="opacity-80 text-xl  uppercase">Classic Watch Collections</p>

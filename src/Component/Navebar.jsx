@@ -39,7 +39,7 @@ export const Navebar = () => {
                     <FontAwesomeIcon icon={faBars} />
         </div>
         <div className=" bg-black navh w-80 flex flex-col z-30 -right-96 top-28 py-8 px-4 md:hidden fixed">
-            <nav className="flex flex-col-reverse gap-20 text-center">
+            <nav className="flex flex-col-reverse gap-10  text-center">
             <Link className="text-4xl font-bold cursor-pointer uppercase" to="/">
                     rolex
                 </Link>
