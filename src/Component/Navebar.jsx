@@ -12,8 +12,8 @@ export const Navebar = () => {
 
   return (
     <>
-    <motion.header animate={{top:0,}} transition={{ duration: 0.5 }} className="py-10  bg-black text-white text-end px-20 md:relative fixed w-full z-30 top-[-10rem]">
-        <nav className=" hidden md:flex items-center justify-evenly container mx-auto  ">
+    <motion.header animate={{top:0,}} transition={{ duration: 0.5 }} className="py-10  bg-black text-white text-end px-8 md:px-20 md:relative fixed w-full z-30 top-[-10rem]">
+        <nav className=" hidden md:flex items-center justify-evenly container mx-auto">
                 <Link className="text-4xl font-bold cursor-pointer uppercase" to="/">
                     rolex
                 </Link>

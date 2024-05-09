@@ -75,7 +75,7 @@ export const Contacte = () => {
                         </div>
                     </form>
               </div>
-            </section>
+      </section>
     <Footer/>
     </div>
     </>
