@@ -100,7 +100,7 @@ export const Section = () => {
                     </div>
                     <div className="banner_three h-full md:h-1/2 text-white md:flex items-end justify-end py-10 px-8">
                             <div className="space-y-5">
-                                <h1 className="opacity-80 text-3xl  uppercase font-blod"> GIZMO </h1>
+                                <h1 className="opacity-80 text-3xl  uppercase font-blod">GIZMO</h1>
                                 <p className="opacity-80 text-xl  uppercase">Classic Watch Collections</p>
                                 <div className=" hidden md:flex gap-6 items-center w-fit border border-spacing-3 py-4 px-3 rounded-xl cursor-pointer hover:bg-white hover:text-black">
                                 <div>

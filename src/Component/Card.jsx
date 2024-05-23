@@ -9,11 +9,11 @@ export const Card = (props) => {
   const {prod} = props
   return (
     <>
-         <div className="card md:w-1/4 w-full" >
+         <div className="card md:w-1/4 w-full"  key={prod ? prod._id : ""} data-testid="card">
                   <div className="p-2 border border-rose-200 border-b-4 border-t-0 border-l-0 border-r-0 border-spacing-2  space-y-4 hover:border-t-4 hover:border-l-4 hover:border-r-4 hover:rounded-xl relative overflow-hidden">
                     <div className="">
                       <div>
-                          <img src={urlFor(prod.image_one.asset._ref)} alt="product one" />
+                          <img src={prod ? urlFor(prod.image_one.asset._ref) : ""} alt="product one" />
                         </div>
                         <div className="py-2 px-3 space-y-4">
                           <div>

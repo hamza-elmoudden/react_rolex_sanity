@@ -16,6 +16,7 @@ export const Showprocate = () => {
       controlAnimte.start("end")
     }
   },[isVeiw,controlAnimte])
+  
   return (
     <>
     <section className="py-20">
@@ -45,11 +46,9 @@ export const Showprocate = () => {
             </div>
         </div>
         <div className="py-10 container mx-auto row gap-8 flex flex-wrap  items-center justify-center">
-          {
-            result.map((prod)=>{
-              return <Card prod={prod} key={prod._id}/>
-            })
-          }
+        {result && result.map((prod) => {
+            return <Card prod={prod} />;
+          })}
         </div>
         <div className="container mx-auto py-20">
             <div className='w-full flex justify-center items-center  '>

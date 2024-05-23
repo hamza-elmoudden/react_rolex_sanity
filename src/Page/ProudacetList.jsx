@@ -5,7 +5,6 @@ import { Navebar } from "../Component/Navebar"
 import { useSelector } from 'react-redux';
 import { Card } from '../Component/Card';
 import { useState } from 'react';
-import { motion } from 'framer-motion';
 
 
 
